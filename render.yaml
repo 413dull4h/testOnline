@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: telegram-hello-bot
+    runtime: python
+    buildCommand: ""
+    startCommand: python hello_bot.py
+    autoDeploy: true
